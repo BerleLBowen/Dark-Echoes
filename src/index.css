@@ -1,0 +1,21 @@
+.main-content {
+  display: flex;
+  gap: 40px;
+}
+
+.episode-list {
+  list-style: none;
+  cursor: pointer;
+  width: 200px;
+}
+
+.episode-item:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.episode-details {
+  border-left: 1px solid #ccc;
+  padding-left: 20px;
+  flex: 1;
+}
